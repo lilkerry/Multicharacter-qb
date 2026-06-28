@@ -1,0 +1,6 @@
+card.innerHTML = `
+    <div class="character-meta">
+        <div><strong>Empty Slot ${i}</strong></div>
+        <div>Create a character in this slot.</div>
+    </div>
+`;
