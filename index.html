@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multicharacter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" class="hidden">
+        <div class="container">
+            <h1>Character Selection</h1>
+            <div id="character-list"></div>
+
+            <div class="create-box">
+                <h2>Create Character</h2>
+                <input id="firstname" placeholder="First Name" />
+                <input id="lastname" placeholder="Last Name" />
+                <input id="birthdate" type="date" />
+                <select id="gender">
+                    <option value="0">Male</option>
+                    <option value="1">Female</option>
+                </select>
+                <input id="nationality" placeholder="Nationality" />
+                <input id="cid" type="number" min="1" max="4" placeholder="Slot Number" />
+                <button onclick="createCharacter()">Create</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
