@@ -1,0 +1,19 @@
++-----------------------------------------------------------+
+|                  MULTICHARACTER MENU                      |
++-------------------------------+---------------------------+
+| Character Slots               | Create / Spawn Panel      |
+|                               |                           |
+| [Slot 1 - John Smith]         | First Name  [          ]  |
+| [Play] [Delete]               | Last Name   [          ]  |
+|                               | DOB         [          ]  |
+| [Slot 2 - Empty]              | Gender      [ select   ]  |
+| [Empty Slot]                  | Nation      [          ]  |
+|                               | Slot        [ 1..4     ]  |
+| [Slot 3 - Jane Doe]           |                           |
+| [Play] [Delete]               | [Create Character]       |
+|                               |                           |
+| [Slot 4 - Empty]              | Spawn Point              |
+| [Empty Slot]                  | [Legion Square v]        |
+|                               |                           |
+|                               | Status: Ready            |
++-------------------------------+---------------------------+
