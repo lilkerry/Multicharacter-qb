@@ -1,0 +1,12 @@
+card.innerHTML = `
+    <div class="character-meta">
+        <div><strong>${char.name}</strong></div>
+        <div>Slot: ${char.cid}</div>
+        <div>Citizen ID: ${char.citizenid}</div>
+        <div>DOB: ${char.birthdate}</div>
+    </div>
+    <div class="actions">
+        <button class="play" onclick="selectCharacter('${char.citizenid}')">Play</button>
+        <button class="delete" onclick="deleteCharacter('${char.citizenid}')">Delete</button>
+    </div>
+`;
