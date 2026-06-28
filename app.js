@@ -83,5 +83,8 @@ function createCharacter() {
         gender,
         nationality,
         cid
+    document.getElementById('cid').max = maxSlots;
+setStatus('');
+
     });
 }
