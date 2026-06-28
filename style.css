@@ -46,4 +46,10 @@ input, select {
     padding: 10px;
     border-radius: 6px;
     border: none;
+.character-card.selected {
+    border: 1px solid #2f7df4;
+    box-shadow: 0 0 12px rgba(47, 125, 244, 0.35);
 }
+
+}
+
